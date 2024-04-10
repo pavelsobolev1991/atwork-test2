@@ -1,0 +1,45 @@
+@import '../../colors.scss';
+
+.input {
+  height: 42px;
+  width: 402px;
+  padding: 0px 8px 0px 8px;
+  gap: 8px;
+  border-radius: 50px;
+  border: 2px solid $light-gray-second;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: $pitch-black;
+}
+
+.mainInputContainer {
+  margin-bottom: 24px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.label {
+  font-size: 18px;
+  color: $black;
+  font-weight: 600;
+}
+
+.error {
+  position: absolute;
+  color: $error;
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 287px;
+  }
+}

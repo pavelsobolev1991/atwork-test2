@@ -1,0 +1,32 @@
+@import '../../colors.scss';
+
+.profileContainer {
+  padding: 40px;
+  background: $secondary-color;
+  border-radius: 16px;
+  flex-basis: 1;
+}
+
+.profileLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 208px;
+  margin-top: 24px;
+}
+
+.chosenLink,
+.userDataLink {
+  font-family: 'Manrope' !important;
+  font-size: 16px !important;
+}
+
+.chosenLink {
+  color: $black;
+  font-weight: 600 !important;
+}
+
+.userDataLink {
+  color: $medium-gray;
+  font-weight: 500 !important;
+}

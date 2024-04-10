@@ -1,0 +1,52 @@
+@import '../../colors.scss';
+
+.profileFormContainer {
+  width: 100%;
+  flex: 2 0 0;
+  background: $secondary-color;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.formButton {
+  width: 170px;
+  height: 46px;
+  padding: 12px 42px 12px 42px;
+  border-radius: 50px;
+  background: $black;
+  color: $white;
+  font-size: 16px;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    color: $gray;
+    background: $light-gray;
+  }
+}
+
+@media (max-width: 768px) {
+  .formButton {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 960px) {
+  .mainEditContainer {
+    max-width: 960px;
+  }
+  .profileFormContainer {
+    max-width: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileFormContainer {
+    padding: 28px;
+    max-width: 100%;
+  }
+}
+

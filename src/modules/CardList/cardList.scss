@@ -1,0 +1,11 @@
+.cardListContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 40px;
+}
+
+@media (max-width: 1160px) {
+  .cardListContainer {
+    justify-content: center;
+  }
+}

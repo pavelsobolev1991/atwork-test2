@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/atwork-test2/static/css/main.7fe3f4ef.css",
+    "main.js": "/atwork-test2/static/js/main.eaa3f107.js",
+    "static/media/userBig.png": "/atwork-test2/static/media/userBig.9ea1fd709965b3244d51.png",
+    "static/media/user.png": "/atwork-test2/static/media/user.4854d5cf054b53ba875f.png",
+    "static/media/Icon.svg": "/atwork-test2/static/media/Icon.6f39eb6431375db54b8e50433aaf668f.svg",
+    "index.html": "/atwork-test2/index.html",
+    "main.7fe3f4ef.css.map": "/atwork-test2/static/css/main.7fe3f4ef.css.map",
+    "main.eaa3f107.js.map": "/atwork-test2/static/js/main.eaa3f107.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fe3f4ef.css",
+    "static/js/main.eaa3f107.js"
+  ]
+}

@@ -1,0 +1,31 @@
+@import '../../colors.scss';
+
+.mainContainer {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 12px;
+}
+
+@media (max-width: 1160px) {
+  .mainContainer {
+    max-width: 960px;
+  }
+}
+
+.title {
+  color: $black;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  padding: 16px 0;
+}
+
+.divider {
+  margin-bottom: 28px !important;
+}
+
+.divider,
+.archiveContainer {
+  width: 100%;
+}

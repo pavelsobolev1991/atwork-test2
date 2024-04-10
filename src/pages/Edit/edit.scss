@@ -1,0 +1,21 @@
+.mainEditContainer {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.editContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1160px) {
+  .mainEditContainer {
+    max-width: 960px;
+    padding: 12px;
+  }
+  .editContainer {
+    justify-content: center;
+  }
+}

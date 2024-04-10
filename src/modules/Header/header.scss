@@ -1,0 +1,60 @@
+@import '../../colors.scss';
+
+.headerContainer {
+  height: 56px;
+  width: 100%;
+  background-color: $secondary-color;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+@media (max-width: 1160px) {
+  .header {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+  .iconContainer, .userHeaderName {
+    display: none !important;
+  }
+  .userHeaderInfoContainer {
+    width: auto !important;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.userIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.userHeaderName {
+  font-size: 16px;
+  color: $gray !important;
+}
+
+.logoOne {
+  font-weight: 400;
+}
+
+.logoTwo {
+  font-weight: 700;
+}

@@ -1,0 +1,108 @@
+.cardContainer {
+  display: flex;
+  background-color: #fdfdfd;
+  width: 360px;
+  // flex: 0 0 (100%/3);
+  height: 168px;
+  border-radius: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.cardInfo {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.cardUpperInfo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.userInfo {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+}
+
+.userName,
+.archivedUserName {
+  font-size: 20px;
+}
+
+.userName {
+  color: #22a0bc;
+  font-weight: 600;
+}
+
+.archivedUserName {
+  color: #595959;
+}
+
+.companyName,
+.archivedCompanyName {
+  font-size: 16px;
+  font-weight: 500;
+}
+.companyName {
+  color: #595959;
+}
+
+.archivedCompanyName {
+  color: #9c9c9c;
+}
+
+.city,
+.archivedCity {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.city {
+  color: #9c9c9c;
+}
+
+.archivedCity {
+  color: #dadada;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    width: 162px;
+    height: 242px;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .userName,
+  .archivedUserName {
+    font-size: 18px;
+  }
+
+  .companyName,
+  .archivedCompanyName {
+    font-size: 14px;
+  }
+
+  .cardInfo {
+    height: 74px;
+    width: auto;
+  }
+
+  #userPicture {
+    height: 120px;
+  }
+
+  .city,
+  .archivedCity {
+    font-size: 10px;
+  }
+}

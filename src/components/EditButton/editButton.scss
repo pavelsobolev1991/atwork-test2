@@ -1,0 +1,16 @@
+@import '../../colors.scss';
+
+.iconBtn {
+  margin: 0;
+  padding: 0;
+  display: 'block';
+  height: 24px;
+  background-color: none !important;
+}
+
+.moreVertIcon {
+  &:hover {
+    cursor: pointer;
+    color: $primary-color;
+  }
+}
